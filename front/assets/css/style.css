@@ -636,22 +636,6 @@
   background: rgba(255, 255, 255, 0.18);
 }
 
-/* BUTTON */
-
-.secondary-btn {
-  background-color: #ffffff;
-  color: #007844;
-  transition: background-color 0.2s ease, transform 0.2s ease;
-}
-
-.secondary-btn:hover {
-  background-color: #f1f5f1;
-}
-
-.secondary-btn:active {
-  transform: translateY(1px);
-}
-
 /* CHECKBOX */
 .checkbox {
   display: flex;
@@ -700,10 +684,6 @@
 
 
 /* ЧЕТВЕРТАЯ СЕКЦИЯ */
-/* =========================
-   TEXT BLOCK SECTION
-   ========================= */
-
 .text-block {
   padding: 80px 0;
   background-color: var(--color-bg-white);
@@ -2024,13 +2004,9 @@
 
 /* Заголовок */
 .success-modal__title {
-  font-family: "LT Wave", sans-serif;
-  font-weight: 700;
-  font-size: 52px;
-  color: var(--color-text-white);
-  margin: 54px;
-
+  margin: 54px 0;
   text-align: center;
+  font-family: "LT Wave", sans-serif;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.08;
