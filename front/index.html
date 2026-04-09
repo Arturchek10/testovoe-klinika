@@ -1,0 +1,1107 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>АкваМед — клиника капельниц</title>
+
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/variables.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <div class="header__logo">
+            <img src="./assets/img/aquamed-logo.png" alt="АкваМед" />
+            <div>
+              <p class="header-name">АкваМед</p>
+              <p class="header-name-subname">клиника капельниц</p>
+            </div>
+          </div>
+
+          <div class="header__info">
+            <div class="header-info-container">
+              <div class="info">
+                <img
+                  class="icon-metka"
+                  src="./assets/img/header-icon-metka.png"
+                  alt="icon"
+                />
+                <div class="adress-info-text">
+                  <p class="adress-title">Адрес</p>
+                  <p class="adress-main">
+                    Санкт-Петербург, ул. Авиаинструкторов 45к1
+                  </p>
+                </div>
+              </div>
+              <div class="info borders">
+                <img src="./assets/img/header-icon-phone.png" alt="icon" />
+                <div>
+                  <p class="adress-title">Поддержка 24/7</p>
+                  <p class="adress-main">+7 (800) 888-99-99</p>
+                </div>
+              </div>
+              <div class="info">
+                <img src="./assets/img/clock.png" alt="icon" />
+                <div>
+                  <p class="adress-title">Время работы</p>
+                  <p class="adress-main">Круглосуточно</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="header__actions">
+            <img
+              class="eye-icon"
+              src="./assets/img/header-icon-eye.png"
+              alt="eye"
+            />
+            <div class="icon-container">
+              <button class="icon-btn">
+                <img src="./assets/img/header-icon-search.png" alt="Поиск" />
+              </button>
+            </div>
+            <div class="icon-container">
+              <button class="icon-btn">
+                <img src="./assets/img/header-icon-vk.png" alt="VK" />
+              </button>
+            </div>
+            <div class="icon-container">
+              <button class="icon-btn">
+                <img src="./assets/img/header-icon-tg.png" alt="Telegram" />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__bottom">
+          <nav class="nav">
+            <a href="#" class="nav__link nav__link--active">Услуги</a>
+            <a href="#" class="nav__link">О клинике</a>
+            <a href="#" class="nav__link">Цены</a>
+            <a href="#" class="nav__link">Врачи</a>
+            <a href="#" class="nav__link">Контакты</a>
+            <a href="#" class="nav__link">Статьи</a>
+          </nav>
+
+          <div class="header__buttons">
+            <button
+              class="btn btn-primary-2"
+              type="button"
+              data-open-modal="consultationModal"
+            >
+              Записаться
+            </button>
+            <button class="btn btn-primary-1">Капельница на дому</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO + SERVICES -->
+      <div class="section-group">
+        <section class="hero">
+          <div class="container">
+            <div class="hero__inner">
+              <div class="hero__content">
+                <div class="hero-header">
+                  <h1 class="hero__title">
+                    Клиника капельниц АкваМед
+                    <span>в Санкт-Петербурге</span>
+                  </h1>
+
+                  <p class="hero__subtitle">
+                    Инфузионные программы под контролем врачей: детокс, энергия,
+                    красота и поддержка иммунитета
+                  </p>
+
+                  <div class="info-badges">
+                    <div class="info-badge">
+                      <div class="info-badge__dot"></div>
+                      <p>В клинике</p>
+                    </div>
+                    <div class="info-badge">
+                      <div class="info-badge__dot"></div>
+                      <p>На дому</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="hero__cards">
+                  <article class="service-card">
+                    <div class="service-card__top">
+                      <div class="service-card__heading">
+                        <p class="service-card__label">Капельница</p>
+                        <h3 class="service-card__title">Детокс</h3>
+                      </div>
+
+                      <img
+                        class="service-card__icon"
+                        src="./assets/img/Vector.png"
+                        alt="иконка капельницы"
+                      />
+                    </div>
+
+                    <ul class="service-card__features">
+                      <li class="service-card__feature">
+                        очищение организма после алкоголя и нагрузок
+                      </li>
+                    </ul>
+
+                    <div class="service-card__price">
+                      <span class="service-card__price-label">Цена:</span>
+                      <span class="service-card__price-value">от 5 000 ₽</span>
+                    </div>
+
+                    <a href="#" class="service-card__button">Подробнее</a>
+                  </article>
+                  <article class="service-card">
+                    <div class="service-card__top">
+                      <div class="service-card__heading">
+                        <p class="service-card__label">Капельница</p>
+                        <h3 class="service-card__title">Энергия</h3>
+                      </div>
+
+                      <img
+                        class="service-card__icon"
+                        src="./assets/img/Vector2.png"
+                        alt="иконка капельницы"
+                      />
+                    </div>
+
+                    <ul class="service-card__features">
+                      <li class="service-card__feature">
+                        очищение организма после алкоголя и нагрузок
+                      </li>
+                    </ul>
+
+                    <div class="service-card__price">
+                      <span class="service-card__price-label">Цена:</span>
+                      <span class="service-card__price-value">от 5 000 ₽</span>
+                    </div>
+
+                    <a href="#" class="service-card__button">Подробнее</a>
+                  </article>
+                  <article class="service-card">
+                    <div class="service-card__top">
+                      <div class="service-card__heading">
+                        <p class="service-card__label">Капельница</p>
+                        <h3 class="service-card__title">Золушка</h3>
+                      </div>
+
+                      <img
+                        class="service-card__icon"
+                        src="./assets/img/Vector3.png"
+                        alt="иконка капельницы"
+                      />
+                    </div>
+
+                    <ul class="service-card__features">
+                      <li class="service-card__feature">
+                        очищение организма после алкоголя и нагрузок
+                      </li>
+                    </ul>
+
+                    <div class="service-card__price">
+                      <span class="service-card__price-label">Цена:</span>
+                      <span class="service-card__price-value">от 5 000 ₽</span>
+                    </div>
+
+                    <a href="#" class="service-card__button">Подробнее</a>
+                  </article>
+                </div>
+
+                <div class="hero__buttons">
+                  <button
+                    class="btn btn-primary-1"
+                    type="button"
+                    data-open-modal="consultationModal"
+                  >
+                    Подобрать капельницу
+                  </button>
+                  <button
+                    class="btn btn-primary-2"
+                    type="button"
+                    data-open-modal="consultationModal"
+                  >
+                    Бесплатная консультация
+                  </button>
+                </div>
+              </div>
+
+              <div class="hero__image">
+                <img src="./assets/img/doctor.png" alt="Врач клиники АкваМед" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- BENEFITS -->
+      <section class="benefits section">
+        <div class="container">
+          <h2 class="section-title benefits__title">
+            Что даёт инфузионная терапия?
+          </h2>
+
+          <div class="benefits__scheme">
+            <div class="benefits__bg-circle benefits__bg-circle--1"></div>
+            <div class="benefits__bg-circle benefits__bg-circle--2"></div>
+            <div class="benefits__bg-circle benefits__bg-circle--3"></div>
+            <div class="benefits__bg-circle benefits__bg-circle--4"></div>
+            <div class="benefits__bg-circle benefits__bg-circle--5"></div>
+            <div class="benefits__bg-circle benefits__bg-circle--6"></div>
+
+            <article class="benefit-card benefit-card--1">
+              <img
+                class="benefit-card__icon"
+                src="./assets/img/lightning.png"
+                alt=""
+                aria-hidden="true"
+              />
+              <p class="benefit-card__text">
+                Эффект уже после <br />
+                первой процедуры
+              </p>
+            </article>
+
+            <article class="benefit-card benefit-card--2">
+              <img
+                class="benefit-card__icon"
+                src="./assets/img/water.png"
+                alt=""
+                aria-hidden="true"
+              />
+              <p class="benefit-card__text">
+                5 капельниц = 3 месяца <br />
+                приёма витаминов
+              </p>
+            </article>
+
+            <div class="benefits__center">
+              <img
+                src="./assets/img/kapelnitsa.png"
+                alt="Инфузионная терапия"
+              />
+            </div>
+
+            <article class="benefit-card benefit-card--3">
+              <img
+                class="benefit-card__icon"
+                src="./assets/img/clock.png"
+                alt=""
+                aria-hidden="true"
+              />
+              <p class="benefit-card__text">
+                100% усвоение — витамины <br />
+                и препараты минуют ЖКТ
+              </p>
+            </article>
+
+            <article class="benefit-card benefit-card--4">
+              <img
+                class="benefit-card__icon"
+                src="./assets/img/human.png"
+                alt=""
+                aria-hidden="true"
+              />
+              <p class="benefit-card__text">
+                Без нагрузки на желудок <br />
+                и печень
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- OVERLAY -->
+      <div class="success-modal" id="successModal">
+        <div class="success-modal__dialog" id="successModalDialog">
+          <button
+            class="success-modal__close"
+            type="button"
+            aria-label="Закрыть модальное окно"
+            id="successModalClose"
+          >
+            <img src="./assets/img/cross.png" alt="cross">
+          </button>
+
+          <div
+            class="success-modal__icon"
+            id="successModalIcon"
+            aria-hidden="true"
+          >
+            <img
+              src="./assets/img/galochka.png"
+              alt="galochka"
+              id="successModalIconImage"
+            />
+          </div>
+
+          <h2 class="success-modal__title" id="successModalTitle">
+            Заявка успешно
+            <br />
+            отправлена!
+          </h2>
+
+          <button
+            class="success-modal__button"
+            type="button"
+            id="successModalButton"
+          >
+            Хорошо
+          </button>
+        </div>
+      </div>
+
+      <!-- CONSULTATION -->
+      <section class="consultation section">
+        <div class="container">
+          <div class="consultation__inner">
+            <div class="consultation__content">
+              <h2 class="consultation__title">
+                Не знаете какая капельница
+                <br />
+                или процедура вам подойдет?
+              </h2>
+
+              <p class="consultation__subtitle">
+                Оставьте заявку, наш специалист перезвонит вам и бесплатно
+                проконсультирует вас
+              </p>
+
+              <form
+                class="consultation-form"
+                id="consultationForm"
+                action="#"
+                method="post"
+              >
+                <div class="consultation-form__row">
+                  <input
+                    class="input-field consultation-form__input"
+                    type="text"
+                    name="name"
+                    placeholder="Ваше имя"
+                  />
+
+                  <input
+                    class="input-field consultation-form__input"
+                    type="email"
+                    name="email"
+                    placeholder="Ваш email"
+                  />
+                </div>
+
+                <div class="consultation-form__row">
+                  <input
+                    class="input-field consultation-form__input"
+                    type="tel"
+                    name="phone"
+                    placeholder="Ваш номер телефона"
+                  />
+                </div>
+
+                <div class="consultation-form__bottom">
+                  <button
+                    class="secondary-btn consultation-form__button"
+                    type="submit"
+                  >
+                    Отправить заявку
+                  </button>
+
+                  <label class="checkbox">
+                    <input
+                      class="checkbox__input"
+                      type="checkbox"
+                      name="policy"
+                    />
+                    <span class="checkbox__custom"></span>
+                    <span class="checkbox__text">
+                      Нажимая кнопку, вы соглашаетесь с политикой
+                      конфиденциальности и пользовательским соглашением
+                    </span>
+                  </label>
+                </div>
+              </form>
+
+              <div id="formSuccess" hidden>Заявка успешно отправлена</div>
+            </div>
+
+            <div class="consultation__image">
+              <img src="./assets/img/doctor2.png" alt="Врач консультант" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEXT BLOCK -->
+      <section class="text-block section">
+        <div class="container">
+          <div class="text-block__inner">
+            <div class="text-block__content">
+              <h2 class="text-block__title">Текстовый блок</h2>
+
+              <div class="text-block__top">
+                <div class="text-block__main">
+                  <p class="text-block__paragraph">
+                    Приятно, граждане, наблюдать, как многие известные личности
+                    своевременно верифицированы. Господа, высококачественный
+                    прототип будущего проекта играет определяющее значение для
+                    вывода текущих активов. Наше дело не так однозначно, как
+                    может показаться: постоянное информационно-пропагандистское
+                    обеспечение нашей деятельности способствует повышению
+                    качества экспериментов, поражающих по своей масштабности и
+                    грандиозности. Кстати, реплицированные с зарубежных
+                    источников, современные исследования формируют глобальную
+                    экономическую сеть и при этом — объявлены нарушающими
+                    общечеловеческие нормы этики и морали.
+                  </p>
+
+                  <p class="text-block__paragraph">
+                    В целом, конечно, синтетическое тестирование предопределяет
+                    высокую востребованность экономической целесообразности
+                    принимаемых решений. Наше дело не так однозначно, как может
+                    показаться: убеждённость некоторых оппонентов говорит о
+                    возможностях модели развития. Однозначно, предприниматели в
+                    сети интернет своевременно верифицированы.
+                  </p>
+
+                  <p
+                    class="text-block__paragraph text-block__paragraph--mb-small"
+                  >
+                    Наше дело не так однозначно, как может показаться:
+                  </p>
+
+                  <ul class="text-block__bullet-list">
+                    <li>
+                      Информационно-пропагандистское обеспечение нашей
+                      деятельности
+                    </li>
+                    <li>Предприниматели в сети интернет</li>
+                    <li>
+                      Реплицированные с зарубежных источников, современные
+                      исследования
+                    </li>
+                    <li>
+                      Убеждённость некоторых оппонентов говорит о возможностях
+                      модели развития
+                    </li>
+                    <li>Определяющее значение для вывода текущих активов</li>
+                  </ul>
+                </div>
+
+                <div class="text-block__image">
+                  <img
+                    src="./assets/img/medsestra-soedinausaa-vnutrivennuu-kapel-ku1.png"
+                    alt="Медицинская процедура"
+                  />
+                </div>
+              </div>
+
+              <h3 class="text-block__subtitle">Текстовый блок H3</h3>
+
+              <p class="text-block__paragraph">
+                Приятно, граждане, наблюдать, как многие известные личности
+                своевременно верифицированы. Господа, высококачественный
+                прототип будущего проекта играет определяющее значение для
+                вывода текущих активов. Наше дело не так однозначно, как может
+                показаться: постоянное информационно-пропагандистское
+                обеспечение нашей деятельности способствует повышению качества
+                экспериментов, поражающих по своей масштабности и грандиозности.
+                Кстати, реплицированные с зарубежных источников, современные
+                исследования формируют глобальную экономическую сеть и при этом
+                — объявлены нарушающими общечеловеческие нормы этики и морали.
+              </p>
+
+              <div class="text-block__highlight">
+                <div class="text-block__highlight-quote">
+                  <div class="text-block__highlight-icon">
+                    <img src="./assets/img/lightning.png" alt="Иконка цитаты" />
+                  </div>
+
+                  <p class="text-block__highlight-text">
+                    Ясность нашей позиции очевидна: курс на
+                    социально-ориентированный национальный проект однозначно
+                    фиксирует необходимость дальнейших направлений развития. В
+                    своём стремлении повысить качество жизни, они забывают, что
+                    социально-экономическое развитие в значительной степени
+                    обусловливает важность экономической целесообразности
+                    принимаемых решений.
+                  </p>
+                </div>
+
+                <div class="text-block__highlight-divider"></div>
+
+                <div class="text-block__author">
+                  <div class="text-block__author-avatar">
+                    <img
+                      src="./assets/img/photo-doctor-logo.png"
+                      alt="Фото врача"
+                    />
+                  </div>
+
+                  <div class="text-block__author-info">
+                    <p class="text-block__author-name">
+                      Константинопольский Константин Константинович
+                    </p>
+                    <p class="text-block__author-role">
+                      Главный врач клиники, психиатр-нарколог
+                    </p>
+                    <p class="text-block__author-exp">Опыт работы: 13 лет</p>
+                  </div>
+                </div>
+              </div>
+
+              <p class="text-block__paragraph">
+                Приятно, граждане, наблюдать, как многие известные личности
+                своевременно верифицированы. Господа, высококачественный
+                прототип будущего проекта играет определяющее значение для
+                вывода текущих активов. Наше дело не так однозначно, как может
+                показаться: постоянное информационно-пропагандистское
+                обеспечение нашей деятельности способствует повышению качества
+                экспериментов, поражающих по своей масштабности и грандиозности.
+              </p>
+
+              <p class="text-block__paragraph">
+                В целом, конечно, синтетическое тестирование предопределяет
+                высокую востребованность экономической целесообразности
+                принимаемых решений. Наше дело не так однозначно, как может
+                показаться: убеждённость некоторых оппонентов говорит о
+                возможностях модели развития. Однозначно, предприниматели в сети
+                интернет своевременно верифицированы.
+              </p>
+
+              <p class="text-block__paragraph text-block__paragraph--mb-medium">
+                Разнообразный и богатый опыт говорит нам, что курс на
+                социально-ориентированный национальный проект:
+              </p>
+
+              <ol class="text-block__number-list">
+                <li class="text-block__number-item">
+                  <span class="text-block__number">01</span>
+                  <span class="text-block__number-text">
+                    Информационно-пропагандистское обеспечение нашей
+                    деятельности
+                  </span>
+                </li>
+                <li class="text-block__number-item">
+                  <span class="text-block__number">02</span>
+                  <span class="text-block__number-text">
+                    Предприниматели в сети интернет
+                  </span>
+                </li>
+                <li class="text-block__number-item">
+                  <span class="text-block__number">03</span>
+                  <span class="text-block__number-text">
+                    Реплицированные с зарубежных источников, современные
+                    исследования
+                  </span>
+                </li>
+                <li class="text-block__number-item">
+                  <span class="text-block__number">04</span>
+                  <span class="text-block__number-text">
+                    Убеждённость некоторых оппонентов говорит о возможностях
+                    модели развития
+                  </span>
+                </li>
+                <li class="text-block__number-item">
+                  <span class="text-block__number">05</span>
+                  <span class="text-block__number-text">
+                    Определяющее значение для вывода текущих активов некоторых
+                    оппонентов говорит о возможностях модели развития
+                  </span>
+                </li>
+              </ol>
+
+              <p class="text-block__paragraph">
+                В целом, конечно, синтетическое тестирование предопределяет
+                высокую востребованность экономической целесообразности
+                принимаемых решений. Наше дело не так однозначно, как может
+                показаться: убеждённость некоторых оппонентов говорит о
+                возможностях модели развития. Однозначно, предприниматели в сети
+                интернет своевременно верифицированы.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DOCTORS -->
+      <section class="doctors section">
+        <div class="container">
+          <div class="doctors__content">
+            <h2 class="doctors__title">Врачи нашей клиники</h2>
+
+            <!-- Большая карточка -->
+            <article class="doctor-featured">
+              <div class="doctor-featured__content">
+                <div class="doctor-featured__badges">
+                  <span class="doctor-badge">
+                    <span class="doctor-badge__dot"></span>
+                    Главный врач клиники, психиатр-нарколог
+                  </span>
+
+                  <span class="doctor-badge">Опыт работы 33 года</span>
+                </div>
+
+                <h3 class="doctor-featured__name">
+                  Константинопольский Константин Константинович
+                </h3>
+
+                <div class="doctor-featured__quote">
+                  <div class="doctor-featured__quote-icon">
+                    <img src="./assets/img/lightning.png" alt="Иконка" />
+                  </div>
+
+                  <p class="doctor-featured__text">
+                    Ясность нашей позиции очевидна: курс на
+                    социально-ориентированный национальный проект однозначно
+                    фиксирует необходимость дальнейших направлений развития. В
+                    своём стремлении повысить качество жизни, они забывают, что
+                    социально-экономическое развитие в значительной степени
+                    обусловливает важность экономической целесообразности.
+                  </p>
+                </div>
+
+                <a class="doctor-featured__button secondary-btn" href="#">
+                  Подробнее о специалисте
+                </a>
+              </div>
+
+              <div class="doctor-featured__image">
+                <img src="./assets/img/photo-doctor.png" alt="Главный врач" />
+              </div>
+            </article>
+
+            <!-- Карточки врачей -->
+            <div class="doctors__grid">
+              <article class="doctor-card">
+                <div class="doctor-card__image-wrap">
+                  <img
+                    class="doctor-card__image"
+                    src="./assets/img/photo-doctor.png"
+                    alt="Константинопольский Константин Константинович"
+                  />
+                  <span class="doctor-card__badge">
+                    <span class="doctor-card__badge-dot"></span>
+                    Опыт работы 13 лет
+                  </span>
+                </div>
+
+                <div class="doctor-card__body">
+                  <h3 class="doctor-card__name">
+                    Константинопольский Константин Константинович
+                  </h3>
+                  <p class="doctor-card__role">Врач психиатр-нарколог</p>
+
+                  <div class="doctor-card__actions">
+                    <a
+                      href="#"
+                      class="doctor-card__btn doctor-card__btn--primary"
+                      data-open-modal="consultationModal"
+                    >
+                      Записаться
+                    </a>
+                    <a
+                      href="#"
+                      class="doctor-card__btn doctor-card__btn--secondary"
+                      >Подробнее</a
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <article class="doctor-card">
+                <div class="doctor-card__image-wrap">
+                  <img
+                    class="doctor-card__image"
+                    src="./assets/img/photo-doctor.png"
+                    alt="Преображенский Александр Леонидович"
+                  />
+                  <span class="doctor-card__badge">
+                    <span class="doctor-card__badge-dot"></span>
+                    Опыт работы 13 лет
+                  </span>
+                </div>
+
+                <div class="doctor-card__body">
+                  <h3 class="doctor-card__name">
+                    Преображенский Александр Леонидович
+                  </h3>
+                  <p class="doctor-card__role">Врач психиатр-нарколог</p>
+
+                  <div class="doctor-card__actions">
+                    <a
+                      href="#"
+                      class="doctor-card__btn doctor-card__btn--primary"
+                      >Записаться</a
+                    >
+                    <a
+                      href="#"
+                      class="doctor-card__btn doctor-card__btn--secondary"
+                      >Подробнее</a
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <article class="doctor-card">
+                <div class="doctor-card__image-wrap">
+                  <img
+                    class="doctor-card__image"
+                    src="./assets/img/photo-doctor.png"
+                    alt="Миронова Татьяна Анатольевна"
+                  />
+                  <span class="doctor-card__badge">
+                    <span class="doctor-card__badge-dot"></span>
+                    Опыт работы 13 лет
+                  </span>
+                </div>
+
+                <div class="doctor-card__body">
+                  <h3 class="doctor-card__name">
+                    Миронова Татьяна Анатольевна
+                  </h3>
+                  <p class="doctor-card__role">Врач психиатр-нарколог</p>
+
+                  <div class="doctor-card__actions">
+                    <a
+                      href="#"
+                      class="doctor-card__btn doctor-card__btn--primary"
+                      >Записаться</a
+                    >
+                    <a
+                      href="#"
+                      class="doctor-card__btn doctor-card__btn--secondary"
+                      >Подробнее</a
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <article class="doctor-card">
+                <div class="doctor-card__image-wrap">
+                  <img
+                    class="doctor-card__image"
+                    src="./assets/img/photo-doctor.png"
+                    alt="Задорнов Дмитрий Михайлович"
+                  />
+                  <span class="doctor-card__badge">
+                    <span class="doctor-card__badge-dot"></span>
+                    Опыт работы 13 лет
+                  </span>
+                </div>
+
+                <div class="doctor-card__body">
+                  <h3 class="doctor-card__name">Задорнов Дмитрий Михайлович</h3>
+                  <p class="doctor-card__role">Врач психиатр-нарколог</p>
+
+                  <div class="doctor-card__actions">
+                    <a
+                      href="#"
+                      class="doctor-card__btn doctor-card__btn--primary"
+                      >Записаться</a
+                    >
+                    <a
+                      href="#"
+                      class="doctor-card__btn doctor-card__btn--secondary"
+                      >Подробнее</a
+                    >
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Навигация -->
+            <div class="doctors__nav">
+              <button
+                class="doctors__nav-btn"
+                type="button"
+                aria-label="Предыдущий слайд"
+              >
+                <img src="./assets/img/arrow-left.png" alt="arrow-left" />
+              </button>
+              <button
+                class="doctors__nav-btn"
+                type="button"
+                aria-label="Следующий слайд"
+              >
+                <img src="./assets/img/arrow-right.png" alt="arrow-right" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LICENSES -->
+      <section class="licenses">
+        <div class="container">
+          <div class="licenses__inner">
+            <!-- ЛЕВАЯ ЧАСТЬ -->
+            <div class="licenses__content">
+              <h2 class="licenses__title">
+                Лицензии клиники <br />
+                <span>АкваМед</span>
+              </h2>
+
+              <p class="licenses__text">
+                Клиника работает на основании медицинской лицензии и всех
+                необходимых разрешений. Работаем с пациентами на основе
+                заключения договора о предоставлении медицинских услуг -
+                прозрачно, безопасно и с защитой вашего здоровья.
+              </p>
+
+              <p class="licenses__text">
+                Мы используем только сертифицированные препараты и соблюдаем
+                стандарты Министерства здравоохранения РФ. Медицинская лицензия
+                ООО «Кристалл» Л041-01148-78/00347913
+              </p>
+
+              <p class="licenses__text licenses__text--small">
+                Медицинская лицензия ООО «Кристалл» Л041-01148-78/00347913
+              </p>
+
+              <!-- стрелки -->
+              <div class="licenses__nav">
+                <button class="licenses__btn">
+                  <img src="./assets/img/arrow-left.png" alt="arrow left" />
+                </button>
+                <button class="licenses__btn">
+                  <img src="./assets/img/arrow-right.png" alt="arrow left" />
+                </button>
+              </div>
+            </div>
+
+            <!-- ПРАВАЯ ЧАСТЬ -->
+            <div class="licenses__cards">
+              <div class="license-card">
+                <img src="assets/img/license.png" alt="license" />
+                <p>Описание лицензии</p>
+              </div>
+
+              <div class="license-card">
+                <img src="assets/img/license.png" alt="license" />
+                <p>Описание лицензии</p>
+              </div>
+
+              <div class="license-card">
+                <img src="assets/img/license.png" alt="license" />
+                <p>Описание лицензии</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="faq section">
+        <div class="container">
+          <h2 class="faq__title">Отвечаем на ваши вопросы</h2>
+
+          <div class="faq__list">
+            <article class="faq-item faq-item--active">
+              <button class="faq-item__head" type="button">
+                <span class="faq-item__question">
+                  Существуют ли в клинике пакетные предложения или скидки?
+                </span>
+                <span class="faq-item__toggle" aria-hidden="true">−</span>
+              </button>
+
+              <div class="faq-item__body">
+                <div class="faq-item__content">
+                  <p class="faq-item__text">
+                    Клиника работает на основании медицинской лицензии и всех
+                    необходимых разрешений. Работаем с пациентами на основе
+                    заключения договора о предоставлении медицинских услуг —
+                    прозрачно, безопасно и с защитой вашего здоровья.
+                  </p>
+
+                  <div class="faq-item__expert">
+                    <img
+                      class="faq-item__expert-photo"
+                      src="./assets/img/photo-doctor.png"
+                      alt="Константинопольский Константин Константинович"
+                    />
+
+                    <div class="faq-item__expert-info">
+                      <p class="faq-item__expert-name">
+                        Константинопольский Константин Константинович
+                      </p>
+                      <p class="faq-item__expert-role">
+                        Главный врач клиники, психиатр-нарколог
+                      </p>
+                      <p class="faq-item__expert-exp">Опыт работы: 13 лет</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-item__head" type="button">
+                <span class="faq-item__question">
+                  Клиника работает на основании медицинской лицензии и всех
+                  необходимых разрешений?
+                </span>
+                <span class="faq-item__toggle" aria-hidden="true">+</span>
+              </button>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-item__head" type="button">
+                <span class="faq-item__question">
+                  Существуют ли в клинике пакетные предложения или скидки?
+                </span>
+                <span class="faq-item__toggle" aria-hidden="true">+</span>
+              </button>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-item__head" type="button">
+                <span class="faq-item__question">
+                  Клиника работает на основании медицинской лицензии?
+                </span>
+                <span class="faq-item__toggle" aria-hidden="true">+</span>
+              </button>
+            </article>
+
+            <article class="faq-item">
+              <button class="faq-item__head" type="button">
+                <span class="faq-item__question">
+                  Существуют ли в клинике пакетные предложения или скидки?
+                </span>
+                <span class="faq-item__toggle" aria-hidden="true">+</span>
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__main">
+          <!-- ЛЕВАЯ КОЛОНКА -->
+          <div class="footer__col footer__col--brand">
+            <div class="footer__logo">
+              <img src="./assets/img/aquamed-logo.png" alt="АкваМед" />
+              <div class="footer__logo-text">
+                <p class="footer__name">АкваМед</p>
+                <p class="footer__subtitle">Клиника капельниц</p>
+              </div>
+            </div>
+
+            <div class="footer__search">
+              <input
+                type="text"
+                placeholder="Поиск по сайту"
+                class="footer__search-input"
+              />
+              <button class="footer__search-btn">
+                <img src="./assets/img/header-icon-search.png" alt="Поиск" />
+              </button>
+            </div>
+
+            <button class="btn btn-primary-1 btn--full">
+              Капельница на дому
+            </button>
+
+            <div class="footer__socials">
+              <a href="#" class="footer__social"
+                ><img src="./assets/img/header-icon-vk.png" alt="VK"
+              /></a>
+              <a href="#" class="footer__social"
+                ><img src="./assets/img/header-icon-tg.png" alt="Telegram"
+              /></a>
+              <a href="#" class="footer__social"
+                ><img src="./assets/img/header-icon-odn.png" alt="OK"
+              /></a>
+              <a href="#" class="footer__social"
+                ><img
+                  src="./assets/img/header-icon-eye.png"
+                  alt="Версия для слабовидящих"
+              /></a>
+            </div>
+
+            <div class="footer__extra-links">
+              <a href="#">Карта сайта</a>
+              <a href="#">Политика конфиденциальности</a>
+            </div>
+          </div>
+
+          <!-- О КЛИНИКЕ -->
+          <div class="footer__col">
+            <h4 class="footer__title">О клинике</h4>
+            <ul class="footer__list">
+              <li><a href="#">О нас</a></li>
+              <li><a href="#">Специалисты</a></li>
+              <li><a href="#">Отзывы</a></li>
+              <li><a href="#">Фотогалерея</a></li>
+              <li><a href="#">Цены</a></li>
+              <li><a href="#">Акции</a></li>
+              <li><a href="#">Статьи</a></li>
+              <li><a href="#">Ответы на вопросы</a></li>
+              <li><a href="#">Лицензии</a></li>
+            </ul>
+          </div>
+
+          <!-- КАПЕЛЬНИЦЫ -->
+          <div class="footer__col">
+            <h4 class="footer__title">Капельницы</h4>
+            <ul class="footer__list">
+              <li><a href="#">Капельница Детокс</a></li>
+              <li><a href="#">Капельница Энергия</a></li>
+              <li><a href="#">Капельница Золушка</a></li>
+              <li><a href="#">Капельница Детокс</a></li>
+              <li><a href="#">Капельница Энергия</a></li>
+              <li><a href="#">Капельница Золушка</a></li>
+            </ul>
+          </div>
+
+          <!-- КОНТАКТЫ -->
+          <div class="footer__col">
+            <h4 class="footer__title">Контактные данные</h4>
+            <ul class="footer__contacts">
+              <li>
+                <img src="./assets/img/header-icon-phone.png" alt="Телефон" />
+                <span>+7 (800) 889-99-99</span>
+              </li>
+              <li>
+                <img src="./assets/img/header-icon-metka.png" alt="Адрес" />
+                <span>Санкт-Петербург, ул. Авиаконструкторов 45к1</span>
+              </li>
+              <li>
+                <img src="./assets/img/mail-icon.png" alt="Email" />
+                <span>info@kapelnica-med.ru</span>
+              </li>
+              <li>
+                <img src="./assets/img/clock.png" alt="Время работы" />
+                <span>Круглосуточно, 24/7</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- НИЖНЯЯ ЧАСТЬ -->
+        <div class="footer__bottom">
+          <p class="footer__legal">
+            Сайт носит исключительно информационный характер и не является
+            публичной офертой. Медицинские услуги оказываются на основании
+            лицензии.
+          </p>
+          <p class="footer__copyright">© 2025 Все права защищены</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/form.js"></script>
+    <script src="./assets/js/modal.js"></script>
+    <script src="./assets/js/menu.js"></script>
+  </body>
+</html>
